@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    /* width: 80%; */
+    margin: auto;
+}
+.row{
+    /* width: 30%; */
+    margin: auto;
+    padding-top:10%;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+.card-image img{
+    width: 100%;
+    box-shadow: 0 0  10px #ccc;
+}
+.card p{
+    color: #999;
+    line-height: 2;
+}
+.bot-image{
+    width: 30%;
+}
+.cont{
+    width: 70%;
+    padding: 20px 0 0 20px;
+}
+.bot-image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.bot-row{
+    padding-top: 20px;
+    display: flex;
+}
